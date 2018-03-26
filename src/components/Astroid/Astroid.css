@@ -1,0 +1,65 @@
+.div-holder {
+  color: black;
+  width: 18vw;
+  height: 30vh;
+  display: inline;
+  margin: 4%;
+  background: rgba(82, 225, 250, 0.26);
+  text-align: justify;
+  padding: 4%;
+  border-radius: 12%;
+  border: 2px solid lightblue;
+  line-height: 300%;
+}
+.div-holder-edit {
+  text-decoration: underline;
+  color: rgb(216, 75, 19);
+  width: 18vw;
+  height: 30vh;
+  display: inline;
+  margin: 4%;
+  background: rgba(82, 225, 250, 0.26);
+  text-align: center;
+  padding: 4%;
+  border-radius: 12%;
+  border: 2px solid lightblue;
+  line-height: 100%;
+}
+.div-holder:hover {
+  color: rgb(0, 0, 255);
+}
+.main-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+.edit {
+  background: lightblue;
+}
+.delete {
+  background: rgb(235, 112, 112);
+}
+.clicked {
+  background: lightblue;
+}
+.value {
+  text-decoration: underline;
+  color: rgb(216, 75, 19);
+}
+.key {
+  color: rgb(4, 131, 250);
+}
+.edit-canceldiv {
+  margin-top: 19%;
+}
+.edit-cancel {
+  background: rgb(233, 82, 82);
+  margin-right: 4%;
+}
+.edit-update {
+  background: rgb(55, 183, 226);
+  margin-left: 4%;
+}

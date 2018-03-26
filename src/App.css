@@ -1,0 +1,92 @@
+body {
+  background: rgb(250, 191, 191);
+  letter-spacing: 1px;
+}
+input {
+  width: 100px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+input:hover {
+  width: 100%;
+}
+input:focus {
+  background: lightcoral;
+  width: 100%;
+}
+
+.search-box {
+  font-family: Vollkorn;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 2%;
+}
+#search-input {
+  background: rgb(209, 207, 207);
+  color: blue;
+  margin-top: 3%;
+  width: 10vw;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+#search-input:focus {
+  background: lightcoral;
+  width: 15%;
+}
+#search-input:hover {
+  width: 15%;
+}
+.title {
+  text-shadow: 0 0 3px #693692, 0 0 5px #ff009d;
+  color: rgba(17, 236, 188, 0.76);
+  font-family: Vollkorn;
+  font-size: 110%;
+  padding: 0em;
+}
+.astroid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  margin: 4%;
+}
+.searchButton {
+  width: 90%;
+  background: lightblue;
+  border: 1px solid rgb(31, 8, 238);
+  margin: 5%;
+  color: darkblue;
+}
+.warning-message1 {
+  color: red;
+  text-align: center;
+  margin: 5% auto 1% auto;
+  font-size: 150%;
+  font-weight: 900;
+  /* line-height */
+  width: 50vw;
+  text-decoration: blue underline;
+}
+.warning-message2 {
+  color: red;
+  text-align: center;
+  margin: 0 auto 5% auto;
+  font-size: 150%;
+  font-weight: 900;
+  /* line-height */
+  width: 50vw;
+  text-decoration: blue underline;
+}
+.all-holder {
+  background: rgba(2, 86, 241, 0.103);
+  padding: 4%;
+  border-radius: 8%;
+  margin: auto;
+  width: 10vw;
+}

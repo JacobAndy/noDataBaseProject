@@ -1,0 +1,9 @@
+.input-holder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 0.5%;
+}

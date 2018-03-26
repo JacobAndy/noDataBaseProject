@@ -1,0 +1,10 @@
+.footerdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footerp {
+  font-size: 75%;
+}

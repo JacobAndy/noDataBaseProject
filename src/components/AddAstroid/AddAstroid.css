@@ -1,0 +1,43 @@
+.input {
+  background-color: rgb(209, 207, 207);
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.input-holder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+}
+.submit-asteroid {
+  background: rgb(99, 133, 228);
+}
+.hazarddiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: flex-start;
+  margin-bottom: 1%;
+}
+.hazard-button {
+  color: darkblue;
+  background: lightcoral;
+  border-radius: 20%;
+  margin: 10%;
+}
+.hazard-button-active {
+  background: lightblue;
+}
+.hazardq {
+  color: rgba(31, 111, 231, 0.836);
+  font-family: Vollkorn;
+  font-size: 110%;
+  padding: 0%;
+}
