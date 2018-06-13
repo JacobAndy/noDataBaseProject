@@ -1,29 +1,30 @@
 .div-holder {
   color: black;
-  width: 18vw;
+  /* width: 18vw; */
   height: 30vh;
   display: inline;
   margin: 4%;
-  background: rgba(82, 225, 250, 0.26);
+  background: rgb(82, 225, 250);
   text-align: justify;
   padding: 4%;
-  border-radius: 12%;
+  border-radius: 10px;
   border: 2px solid lightblue;
-  line-height: 300%;
+  line-height: 250%;
 }
 .div-holder-edit {
+  width: 280px;
   text-decoration: underline;
   color: rgb(216, 75, 19);
-  width: 18vw;
+  /* width: 18vw; */
   height: 30vh;
   display: inline;
-  margin: 4%;
-  background: rgba(82, 225, 250, 0.26);
+  /* margin: 4%; */
+  background: rgb(82, 225, 250);
   text-align: center;
-  padding: 4%;
-  border-radius: 12%;
-  border: 2px solid lightblue;
-  line-height: 100%;
+  /* padding: 4%; */
+  border-radius: 10px;
+  border: 2px solid red;
+  line-height: 80%;
 }
 .div-holder:hover {
   color: rgb(0, 0, 255);
@@ -35,6 +36,7 @@
   justify-content: space-around;
   align-items: center;
   align-content: flex-start;
+  width: 400px;
 }
 .edit {
   background: lightblue;

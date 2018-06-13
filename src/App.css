@@ -1,5 +1,5 @@
 body {
-  background: rgb(250, 191, 191);
+  background: url("https://images.unsplash.com/photo-1487925876428-ebd8a23ee1d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a4854952e1d18e80245ff80ed1889532&auto=format&fit=crop&w=2629&q=80");
   letter-spacing: 1px;
 }
 input {
@@ -11,7 +11,7 @@ input:hover {
   width: 100%;
 }
 input:focus {
-  background: lightcoral;
+  background: rgba(250, 114, 250, 0.377);
   width: 100%;
 }
 
@@ -34,7 +34,7 @@ input:focus {
   transition: width 0.35s ease-in-out;
 }
 #search-input:focus {
-  background: lightcoral;
+  background: rgba(250, 114, 250, 0.377);
   width: 15%;
 }
 #search-input:hover {
@@ -53,8 +53,9 @@ input:focus {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: space-around;
+  /* align-content: space-around; */
   margin: 4%;
+  /* width: 100%; */
 }
 .searchButton {
   width: 90%;
@@ -84,7 +85,7 @@ input:focus {
   text-decoration: blue underline;
 }
 .all-holder {
-  background: rgba(2, 86, 241, 0.103);
+  background: rgb(170, 195, 240);
   padding: 4%;
   border-radius: 8%;
   margin: auto;

@@ -14,5 +14,5 @@ app.put("/api/astroids/:id", astroid.updateAstroid);
 app.delete("/api/astroids/:id", astroid.deleteAstroid);
 
 app.listen(port, () => {
-  console.log(`hello daddy! Im listening to port ${port}`);
+  console.log(`Magic happens on port ${port}`);
 });
